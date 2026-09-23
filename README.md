@@ -8,7 +8,6 @@ It helps developers explore different web development technologies and create th
 
 The application provides a clean interface where users can browse technologies, filter them by category, and manage their selected stack easily.
 
-
 🛠️ Technologies Used
 
 - React.js
@@ -18,21 +17,17 @@ The application provides a clean interface where users can browse technologies, 
 - HTML5
 - CSS3
 
-
 ✨ Features
 
 1. Technology Exploration
 
 - Users can browse different frontend, backend, database, language, and tool technologies.
 
-
 2. Category Based Filtering
 
-- Users can filter technologies based on categories like Frontend, Backend, Database, DevOps, and Tools.
-
+- Users can filter technologies based on categories like Frontend, Backend, Database, DevOps, and Tools,Tailwind CSS.
 
 3. Personal Stack Builder
-
 - Users can add technologies to their own stack and remove them when needed.
 
 
@@ -47,23 +42,17 @@ It makes React components easier to create and understand.
 
 2. What is the difference between props and state?
 
-Props are used to pass data from a parent component to a child component.
-
-State is used to store and manage changing data inside a component.
+Props are used to pass data from a parent component to a child component.State is used to store and manage changing data inside a component.
 
 
 3. What does the useState hook do, and where did you use it in this project?
 
-The useState hook is used to create and manage component state.
-
-In this project, useState was used to manage the selected technology stack and category selection.
+The useState hook is used to create and manage component state.In this project, useState was used to manage the selected technology stack and category selection.
 
 
 4. What does the useEffect hook do, and why did you need it to load the JSON data?
 
-useEffect is used to perform side effects after rendering a component.
-
-It can be used for loading external data, API calls, or running code when data changes.
+useEffect is used to perform side effects after rendering a component.It can be used for loading external data, API calls, or running code when data changes.
 
 
 5. Why does every item in a .map() list need a unique key prop?
@@ -83,6 +72,4 @@ When no technology is selected, the application shows:
 
 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 
-A parent component passes data to a child component using props.
-
-A child component can send data back by calling a function passed from the parent through props.
+A parent component passes data to a child component using props.A child component can send data back by calling a function passed from the parent through props.
