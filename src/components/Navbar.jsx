@@ -46,7 +46,6 @@ function Navbar() {
             href="#contact"
             className="text-slate-600 font-medium hover:text-slate-900 transition"
           >
-            Contact
           </a>
         </div>
 
