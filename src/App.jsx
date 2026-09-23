@@ -27,11 +27,14 @@ function App() {
 
 
 
+
+
   const addToStack = (tech) => {
 
     const exists = stack.some(
       (item) => item.id === tech.id
     );
+
 
     if (!exists) {
 
@@ -47,15 +50,17 @@ function App() {
 
 
 
+
   const removeFromStack = (id) => {
 
     setStack(
       stack.filter(
-        (item)=>item.id !== id
+        (item) => item.id !== id
       )
     );
 
   };
+
 
 
 
@@ -69,34 +74,46 @@ function App() {
 
 
 
+
+
+
   return (
 
-    <div className="
+    <div
+
+      className="
       min-h-screen
       bg-white
       text-slate-900
       flex
       flex-col
-      justify-between
-      overflow-x-hidden
-    ">
+      "
+    >
 
+
+      {/* Fixed Navbar */}
+
+      <Navbar />
+
+
+
+      {/* Content top padding for fixed navbar */}
 
       <div className="
-        w-full
-        max-w-[1440px]
-        mx-auto
-        px-6
-        lg:px-12
+      pt-20
+      w-full
+      max-w-[1440px]
+      mx-auto
+      px-6
+      lg:px-12
       ">
-
-
-        <Navbar />
 
 
         <main>
 
+
           <Hero />
+
 
 
           <TechnologySection
@@ -113,10 +130,13 @@ function App() {
 
           />
 
+
         </main>
 
 
       </div>
+
+
 
 
 
